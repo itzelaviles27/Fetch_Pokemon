@@ -109,7 +109,7 @@ document.getElementById('next-btn')
         pokemonCard.appendChild(cardElement);
     })
 
-// Código del POST (se mantiene sin cambios)
+// POST 
 fetch('https://jsonplaceholder.typicode.com/posts', {
     method: 'POST',
     body: JSON.stringify({
@@ -122,6 +122,7 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     }
 }).then(res => res.json())
     .then(json => console.log(json))
+
 
 
 /////////////////// EJERCICIOS
